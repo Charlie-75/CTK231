@@ -1,0 +1,31 @@
+/* Anything between these two tags will be ignored by the browser */
+h1{
+    color: red;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.Progress{
+    color: blue;
+}
+
+a:link {
+    color: #ff0000
+}
+a:visited {
+    color: #00ff00
+}
+a:hover {
+    color: #fff700
+}
+
+span{
+    color: rgb(230, 0, 255);
+    font-weight: bold;
+}
