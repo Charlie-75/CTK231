@@ -1,0 +1,73 @@
+/* Assignment 5 Stylesheet */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: url('a5bg.png') repeat;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Navigation */
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color:#63b3ff;
+}
+
+/* Paragraphs */
+.para {
+    text-align: justify;
+    margin: 15px auto;
+    max-width: 800px;
+    padding: 0 10px;
+}
+
+/* Links in content */
+.a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    background-color: navy;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 10px solid #ccc;
+}
