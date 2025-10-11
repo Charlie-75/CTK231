@@ -1,50 +1,95 @@
-/* Anything between these two tags will be ignored by the browser */
-
-h1{
-    color: red;
-}
-/*
-p{
-    color: #ff3366;
-    background-color: #00FF00;
-}
-*/
-.specialp {
-    color : blue;
-    background-color: #ff0000;
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+  border: #045087 10px solid;
 }
 
-#specialID {
-    color : green;
-    background-color: #ffff33f9;
-}
-
-.orangebg {
-    background-color: orange;
-}
-
-.spanstyle {
-    color: blue;
-}
-
-a {
-    color: #ff0000;
-    text-decoration: none;
-}
-
-a:link {
-    color: #00ff00
-}
-a:visited {
-    color: #0000ff
-}
-
-a:active {
-    color: #00ffff
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0077cc;
+    text-decoration: underline; color: #0077cc; 
+    font-weight: normal;
+    text-justify: auto;
 }
 
 a:hover {
-    color: #ff00ff;
+    color: rgb(0, 255, 42);
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:after {
+    color: #f100f1;
     text-decoration: underline;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+header {
+  background-color: #045087;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 a {
+  color: #06eaff;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+    font-weight: normal;
+}
+
+header h1 a:hover {
+    color: #06eaff;
+    text-decoration: underline;
+}
+
+nav {
+  background: color #067aff;
+  padding: 10px 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #06eaff;
+  background-color: #0077cc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a.active {
+  color: white;
+  background-color: #0077cc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #005fa3;
+  color: white;
+}
+
+footer {
+  background-color: #cc0000;
+  color: white;
+  padding: 20px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 40px;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
