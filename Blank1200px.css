@@ -23,6 +23,7 @@ grid-column-gap: 24px;
       text-align: center;
       padding: 20px;
       font-size: 2em;
+      border-radius: 12px;
     }
     .container {
       display: flex;
@@ -85,3 +86,68 @@ grid-column-gap: 24px;
       font-size: 0.8em;
       color: #666;
     }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #003300;
+  width: 100px;
+  color: white;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+nav a:hover {
+  background-color: #ff0000;
+  width: 200px;
+  color: black;
+}
+
+    .one {
+      grid-column: span 5;
+      width: 50%;
+      size: 100px;
+    }
+    .two {
+      grid-column: span 7;
+      width: 50%;
+      size: 100px;
+    }
+    .three {
+      grid-column: span 4;
+      width: 50%;
+      size: 100px;
+    }
+    .four {
+      grid-column: span 8;
+      width: 50%;
+      size: 100px;
+    }
+    .five {
+      grid-column: span 6;
+      width: 50%;
+      size: 100px;
+    }
+    .six {
+      grid-column: span 12;
+      width: 50%;
+      size: 100px;
+    }
+
+audio {
+  display: block;
+  margin: 20px auto;
+}
+
+a{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: middle;
+}
